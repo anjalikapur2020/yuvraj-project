@@ -52,9 +52,12 @@ function draw() {
   packageSprite.x= packageBody.position.x 
   packageSprite.y= packageBody.position.y 
  
-  box1.display()
+ drawSprites();
 
-  drawSprites();
+  box1.display()
+   
+
+ 
  
 }
 
